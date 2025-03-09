@@ -1,2 +1,2 @@
-# js-hindi-yt
+# javascript learning
 A code repo for js learning
