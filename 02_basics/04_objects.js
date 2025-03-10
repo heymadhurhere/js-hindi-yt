@@ -41,9 +41,9 @@ const users = [
 console.log(users[1].email);
 console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // keys of the object tinderuser
-console.log(Object.values(tinderUser)); // values of the object tinderuser
-console.log(Object.entries(tinderUser)); // first element is key and second element is value and everything is in array format 
+console.log(Object.keys(tinderUser)); // gives the list of keys of the object tinderuser
+console.log(Object.values(tinderUser)); // gives the list of values of the object tinderuser
+console.log(Object.entries(tinderUser)); // gives the list of first element is key and second element is value and everything is in array format 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); // checks of the property is available in the object or not
 
 
@@ -56,6 +56,7 @@ const course = {
 }
 
 const {courseInstructor: instructor} = course // destructuring the object to name as chosen by you
+// courseInstructor: instructor => instructor is the alias name for courseInstructor chosen by us
 console.log(instructor);
  
 
