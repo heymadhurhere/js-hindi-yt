@@ -20,4 +20,4 @@ console.log(Math.floor(Date.now() / 1000)); // convert ms to seconds
 
 let newDate = new Date()
 console.log(newDate.getMonth()) // gives present month
-console.log(newDate.getDay()) // gives present day
+console.log(newDate.getDay()) // gives present days
