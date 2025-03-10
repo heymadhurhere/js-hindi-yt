@@ -36,4 +36,4 @@ console.log("B ", myArr);
 
 const myn2 = myArr.splice(1, 3) // removes the portion of the array from the original array including the last idx
 console.log("C ", myArr);
-console.log(myn2);
+console.log(myn2); //ok
