@@ -45,3 +45,20 @@ console.log(Object.keys(tinderUser)); // keys of the object tinderuser
 console.log(Object.values(tinderUser)); // values of the object tinderuser
 console.log(Object.entries(tinderUser)); // first element is key and second element is value and everything is in array format 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); // checks of the property is available in the object or not
+
+
+/*******DESTRUCTURING OBJECT*******/
+
+const course = {
+    courseName: "js in Hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+const {courseInstructor: instructor} = course // destructuring the object to name as chosen by you
+console.log(instructor);
+ 
+
+//JSON => javascript object notation
+// denoted under {}
+// can also be denoted in array format under []
